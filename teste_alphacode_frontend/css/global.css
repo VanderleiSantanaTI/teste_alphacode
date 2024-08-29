@@ -1,0 +1,27 @@
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100% !important;
+  display: block !important;
+}
+
+p {
+  margin: 0px !important;
+}
+
+h1 {
+  margin: 0px !important;
+}
+
+.backgroundDefault {
+  background-color: #068ed0;
+  color: #fff;
+}
+
+button {
+  border: none;
+  background: none;
+}

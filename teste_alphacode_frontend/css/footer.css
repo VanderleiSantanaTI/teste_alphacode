@@ -1,0 +1,18 @@
+.footer-developed-by {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  text-align: right;
+  height: 5rem;
+  gap: 5px;
+}
+
+.footer-developed-by img {
+  height: 1.25rem;
+}
+
+@media (max-width: 450px) {
+  .footer-developed-by img {
+    height: 5rem;
+  }
+}

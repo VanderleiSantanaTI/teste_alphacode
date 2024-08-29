@@ -1,0 +1,66 @@
+.line {
+  border-top: 1px solid #7f7f7f;
+}
+
+th,
+td {
+  
+  text-align: center !important;
+  vertical-align: middle !important;
+  font-size: 1rem;
+}
+
+td {
+  color: #444!important;
+
+}
+
+th {
+  background-color: #068ed0 !important;
+  color: #fff !important;
+  
+}
+
+tr:last-child {
+  box-shadow: 0px 4px 8px -2px #aeaeae;
+}
+
+tr:not(:last-child):not(:first-child) {
+  border-bottom: 1px solid #afafaf;
+
+  box-shadow: 2px 0px 2px -2px #aeaeae, -2px 1px 2px -2px #aeaeae;
+}
+
+.tabela-options {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+@media (max-width: 850px) {
+  th,
+  td {
+    padding: 5px !important;
+  }
+
+  .tabela-options {
+    padding:2px;
+    flex-direction: column;
+    gap: 6px;
+  }
+}
+
+@media (max-width: 650px) {
+  th,
+  td {
+    font-size: 0.7rem;
+    
+  }
+
+  td {
+    padding: 0px !important;
+  }
+
+
+}

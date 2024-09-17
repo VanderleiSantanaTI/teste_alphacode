@@ -60,6 +60,3 @@ A tabela `contatos` contém os seguintes campos:
   - **GitHub:** [VanderleiSantanaTI](https://github.com/VanderleiSantanaTI)
 - **Instituição:** Fatec Carapicuíba
 
----
-
-Esta versão reflete a mesma essência da original, com a reordenação de alguns elementos e a atualização das suas redes sociais.
